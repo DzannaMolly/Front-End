@@ -1,0 +1,47 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+    line-height: 2;
+    background: #093f75;
+    color: #fff;
+}
+
+div {
+    flex: 1;
+    max-width: 32%;
+}
+
+div span {
+    font-family: 'Oswald', sans-serif;
+}
+
+.one li:nth-child(n+1):nth-child(odd):nth-child(-n+3){
+    background-color: #b0c4de;
+    color: #093f75;
+}
+
+.one ul li:nth-child(even){
+    color: #39deea;
+ }
+
+.two ol li:nth-of-type(n+2):nth-of-type(-n+3) {
+    background-color: #b0c4de;
+    color: #093f75;
+}
+
+.three ul li:nth-of-type(3n+3){
+    background-color: #b0c4de;
+    color: #093f75;
+}

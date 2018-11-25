@@ -1,0 +1,55 @@
+.triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 6em solid lightcoral;
+    border-right: 18em solid transparent;
+    border-left: 18em solid transparent;
+    opacity: 0.60;
+    z-index: -1;
+}
+  
+header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;  
+  }
+  
+  body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  #wrapper {
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  #dollarsign {
+    font-size: 60px;
+  }
+  
+  #centerbox {
+    padding: 40px;
+  }
+  
+  .symInput {
+    text-transform: uppercase;
+    padding: 11px;
+    border: solid 1px;
+    vertical-align: top;
+    font-size: 11px;
+  }
+ 
+  button {
+      background-color: lightpink;
+      border: none;
+      color: black;
+      padding: 10px 18px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      outline: none;
+  }
+  

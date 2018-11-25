@@ -1,0 +1,42 @@
+<head>
+    <title>Code Academy developers</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Oswald" rel="stylesheet">
+</head>
+<body>
+   <span class="text">
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+        Et harum quidem rerum facilis est et <span class="tooltip-text"><span class="tooltip">This is a Tooltip</span>expedita</span> distinctio. Nam libero
+        tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus,
+        omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum
+        necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic
+        tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus
+        asperiores repellat.
+        </span>
+
+   <span>
+       <ol>
+           <li>Во елементот со класа "tooltip-text" креирајте елемент со текст "This is a tooltip".</li>
+           <li>На hover на класа "tooltip-text" да се прикажува елементот со класа "tooltip" и истиот да е апсолутно позициониран над средината на "tooltip-text"<sup>*</sup>. Дефинирајте вредности за следните работи на "tooltip" елемент:
+            <ul>
+                <li>позадина #00BCD4,</li>
+                <li>бел и центриран текст,</li>
+                <li>простор околу текстот од сите страни 5px,</li>
+                <li>минимална должина од 140px.</li>
+            </ul>
+            </li>
+           <li>На елементот со класа "tooltip" креирајте after елемент со празен content, апсолутно позициониран одма под parent елементот, по должината да е на средина од parent елемент<sup>**</sup>, и да ги има следните вредности за border за да изгледа како триаголник:
+                <ul>
+                    <li>border-left: 5px solid transparent;</li>
+                    <li>border-right: 5px solid transparent;</li>
+                    <li>border-top: 5px solid #00BCD4;</li>
+                </ul>
+           </li>
+           <li>Елементот со класа "tooltip-text" треба на hover да има cursor pointer.</li>
+       </ol>
+       <span>
+            <sup>*</sup> <sup>**</sup> За полесно центрирање наместо да користите фиксни вредности за left/right, пробајте елементите да бидат flex елементи.
+       </span>
+   </span>
+</body>

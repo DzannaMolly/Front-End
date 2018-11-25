@@ -1,0 +1,129 @@
+h1 {
+    color: darkslateblue;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+h2 {
+    color: darkslateblue;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    color: gray;
+    font-family: Arial;
+    font-size: small;
+}
+
+div.head {
+margin: 0 90px;
+}
+
+div.container {
+	display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 70%;
+    flex-direction: column;
+    height: 200%;
+
+}
+
+div.bottom {
+	display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 70%;
+    flex-direction: row;
+    height: 200%;
+
+}
+
+ .toplist {
+     align-items: center;
+     display: flex;
+     align-content: space-around;
+     flex-direction: row;
+ }
+
+div.col2 {
+display: flex;
+background-color: darkcyan;
+padding: 30px;
+}
+
+.h2 span {
+color: gray;
+}
+
+div.col {
+	padding: 50px;
+}
+
+input[type=text],input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.col input[type=submit] {
+	border: 3px solid lightblue;
+    background-color: #f2f2f2;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 700px;
+}
+
+.col2 input[type=submit] {
+	border: 3px solid #ffa500;
+    background-color: #1F5768;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+body {
+    border-radius: 5px;
+    background-color:white;
+    padding: 20px;   
+}
+
+button {
+    background-color: white ;
+    color: darkslateblue;
+    font-family: Arial ;
+    border-color: darkslateblue ;
+    width: 100px;
+    display: inline-flex;
+}
+
+div.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+div.righlist {
+    display: inline;
+    position: relative;
+}
+
+.box {
+    display: inline-block;
+    background-color: lightskyblue;
+    padding: 5px;
+    border: 4px solid blue;
+    margin: 20px;
+  }

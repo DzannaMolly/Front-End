@@ -1,0 +1,59 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 24px;
+}
+
+body span:nth-of-type(2) {
+    font-family: 'Oswald', sans-serif;
+    margin: 50px 0;
+}
+
+body span:nth-of-type(2) span {
+    padding-left: 30px;
+    font-size: 14px;
+    color: grey;
+}
+
+span ul {
+    list-style-type:square;
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 1;
+    background-color: #00BCD4;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    min-width: 140px;
+    visibility: hidden;
+    bottom: 100%;
+    left: -50%;
+}
+
+.tooltip-text {
+    position: relative;
+}
+
+.tooltip::after{
+    content: "";
+    position: absolute; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #00BCD4; 
+    top: 100%;
+    left: 50%;
+}
+
+
+.tooltip-text:hover .tooltip {
+    visibility: visible;
+    cursor: pointer;
+}
