@@ -26,4 +26,3 @@ function isPrime(num) {
 }
 
 console.log('The sum is:', iterateFn(1, 100));
-
