@@ -41,6 +41,25 @@ function startupWebpage() {
     mainContainer.appendChild(password);
     password.placeholder = "Password";
 
+    password.addEventListener("keyup", function (event) {
+        if (event.key === "Enter") {
+            var user = {
+                firstname: firstName.value,
+                lastname: lastName.value,
+                email: email.value,
+                password: password.value
+            }
+
+            if (user.password.length < 8) {
+                console.log("invalid password");
+            } else { console.log(user); }
+
+            if (!validateEmail(user.email)) {
+                console.log("invalid email");
+            } else console.log(user.email);
+        }
+    });
+
     var button = document.createElement("button");
     mainContainer.appendChild(button);
     button.addEventListener("click", function (event) {
