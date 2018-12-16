@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Social Network</title>
+    <link rel="stylesheet" type="text/css"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script type="text/javascript"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="main-container"></div>
+
+<div class="modal fade"  id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+     style="width: 600px; height: 200px; margin-top: 30px">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Image preview</h4>
+            </div>
+            <div class="modal-body">
+                <img src="" id="imagepreview" style="width: 400px; height: 264px;">
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="disableModal()" class="btn btn-default">Close</button>
+                <button type="button" onclick="nextPage()" class="btn btn-default" data-dismiss="modal">Next</button>
+                <button type="button" onclick="previousPage()" class="btn btn-default" data-dismiss="modal">Previous</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="DataLayer/helper-functions.js"></script>
+<script src="DataLayer/biography.js"></script>
+<script src="DataLayer/picture.js"></script>
+<script src="DataLayer/profile-picture.js"></script>
+<script src="DataLayer/story.js"></script>
+<script src="DataLayer/add-friend.js"></script>
+<script src="DataLayer/user.js"></script>
+<script src="DataLayer/event.js"></script>
+<script src="DataLayer/social.js"></script>
+<script src="main-render.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
