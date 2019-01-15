@@ -1,0 +1,52 @@
+html,body {
+    /* background-color: lightcoral; */
+    /* color: orangered;   
+    object-fit: fill; */
+    width:100%;
+    height: 100%;
+}
+
+.header {
+    background: yellowgreen;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-weight: bolder;
+    color: black;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header:hover {
+    opacity: 0,5;
+    background-color: blueviolet;
+}
+
+span {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+/* .footer {
+    color: orangered;
+    background-color: aqua;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+} */
+
+/* .footer:hover {
+    background-color: blue;
+} */
+
+.quote {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+/*Style for the raw HTML*/
