@@ -49,8 +49,6 @@ span {
 
 }
 
-
-
 * {
     box-sizing: border-box;
   }
@@ -85,6 +83,26 @@ span {
   
   #searchResults li a:hover:not(.header) {
     background-color: #eee;
+  }
+
+  footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px 10%;
+    color: white;
+    text-align: center;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  footer a:hover, footer a:focus {
+    color: #ae0000;
+  }
+  
+  footer p {
+    margin-bottom: 0;
   }
 
 /*Style for the raw HTML*/
