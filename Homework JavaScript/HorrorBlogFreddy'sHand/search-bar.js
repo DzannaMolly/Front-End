@@ -13,7 +13,7 @@ function myFunction() {
     movieApp.apiUrl = "https://api.themoviedb.org/3/";
     movieApp.imageUrl = "https://image.tmdb.org/t/p/w185_and_h278_bestv2";
 
-    // search/movie?api_key=###&query=the+avengers
+    
     $.ajax({
 		url: movieApp.apiUrl + "search/movie",
 		method: "GET",

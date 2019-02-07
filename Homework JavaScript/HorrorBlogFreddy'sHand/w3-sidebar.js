@@ -9,9 +9,9 @@ function createNavBar() {
     });
 
     $('<button>').addClass('w3-bar-item', 'w3-button').html('close').click(w3_close).appendTo(mySidebar);
-    $('<a href="#" class="w3-bar-item w3-button">Link 1</a>').appendTo(mySidebar);
-    $('<a href="#" class="w3-bar-item w3-button">Link 2</a>').appendTo(mySidebar);
-    $('<a href="#" class="w3-bar-item w3-button">Link 3</a>').appendTo(mySidebar);
+    $('<a href="#" class="w3-bar-item w3-button">About Me</a>').appendTo(mySidebar);
+    $('<a href="#" class="w3-bar-item w3-button">Social Media Links</a>').appendTo(mySidebar);
+    $('<a href="#" class="w3-bar-item w3-button">Suggested Pages</a>').appendTo(mySidebar);
 }
 
 //Function to create overlay

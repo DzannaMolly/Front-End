@@ -1,13 +1,31 @@
 html,body {
-    /* background-color: lightcoral; */
+    background-color: black;
     /* color: orangered;   
     object-fit: fill; */
     width:100%;
     height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+  position: relative;
+  height:100%;
+}
+
+.container-fluid{
+  width: 100%;
+  height: auto;
+}
+
+img {
+  border-radius: 5px;
 }
 
 .header {
-    background: yellowgreen;
+    width: 45%;
+    height:auto;
+    background: grey;
     margin-right: 200px;
     margin-left: 200px;
     font-weight: bolder;
@@ -22,7 +40,7 @@ html,body {
 
 .header:hover {
     opacity: 0,5;
-    background-color: blueviolet;
+    background-color: rgb(116, 104, 128);
 }
 
 span {
@@ -57,7 +75,7 @@ span {
     /* background-image: url('/css/searchicon.png'); */
     background-position: 10px 12px;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 50%;
     font-size: 16px;
     padding: 12px 20px 12px 40px;
     border: 1px solid #ddd;
@@ -90,6 +108,11 @@ span {
     padding: 25px 10%;
     color: white;
     text-align: center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background:rgb(85, 119, 136);
   }
   
   footer a {
@@ -103,6 +126,10 @@ span {
   
   footer p {
     margin-bottom: 0;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
   }
 
 /*Style for the raw HTML*/
