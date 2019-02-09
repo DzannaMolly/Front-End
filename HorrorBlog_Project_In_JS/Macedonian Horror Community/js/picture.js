@@ -1,0 +1,4 @@
+function Picture(name) {
+    this.picture = name;
+    this.link = "img/Freddy_Krueger.jpg";   // This represents the src in the <img src=""></img> 
+}
