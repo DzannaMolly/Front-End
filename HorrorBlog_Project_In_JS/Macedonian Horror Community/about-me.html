@@ -13,11 +13,13 @@
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
 </head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Macedonian Horror Community</title>
 <!-- <script src="jquery-3.3.1.min.js"></script> -->
+<script src="/js/header-animation.js"></script>
 </head>
 
 <body>
@@ -28,37 +30,36 @@
       <!-- <img class="blood-img" src="img/blood-pics/blood1.png" alt=""> -->
       <div class="hero">
 
-        <div class=hero_bg></div>
-        <div class=hero_fg></div>
-
-        <svg class=visually-hidden>
-          <defs>
-
-            <!-- Lucas Bebber's goo filter -->
-            <!-- Unused as it severely reduces the frame rate -->
-            <filter id="goo">
-              <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="2" />
-              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
-                result="goo" />
-              <feComposite in2="goo" in="SourceGraphic" result="mix" />
-            </filter>
-
-            <!-- Used on the heading -->
-            <linearGradient id="myLinearGradient1" x1="0%" y1="0%" x2="0%" y2="100%" spreadMethod="pad">
-              <stop offset="0%" stop-color="#00cc00" stop-opacity="1" />
-              <stop offset="100%" stop-color="#006600" stop-opacity="1" />
-              <animate values="0% 25% 0%;" dur="2s" attributeName="y1" repeatCount="indefinite"></animate>
-              <animate values="100%; 50%; 100%" dur="4s" attributeName="y2" repeatCount="indefinite"></animate>
-
-            </linearGradient>
-
-          </defs>
-        </svg>
-      </div>
+          <div class=hero_bg></div>
+          <div class=hero_fg></div>
+  
+          <svg class=visually-hidden>
+            <defs>
+  
+              <!-- Lucas Bebber's goo filter -->
+              <!-- Unused as it severely reduces the frame rate -->
+              <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="2" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                <feComposite in2="goo" in="SourceGraphic" result="mix" />
+              </filter>
+  
+              <!-- Used on the heading -->
+              <linearGradient id="myLinearGradient1" x1="0%" y1="0%" x2="0%" y2="100%" spreadMethod="pad">
+                <stop offset="0%" stop-color="#00cc00" stop-opacity="1" />
+                <stop offset="100%" stop-color="#006600" stop-opacity="1" />
+                <animate values="0% 25% 0%;" dur="2s" attributeName="y1" repeatCount="indefinite"></animate>
+                <animate values="100%; 50%; 100%" dur="4s" attributeName="y2" repeatCount="indefinite"></animate>
+  
+              </linearGradient>
+  
+            </defs>
+          </svg>
+        </div>
 
 
       <div class="image-holder">
-        <img style="width: 80px; height:80px" src="img/blood-pics/mhc.jpg">
+          <img src="img/blood-pics/mhc-logo.png">
       </div>
 
       <div class="nav-holder">
@@ -79,28 +80,28 @@
     </div>
   </header>
 
-  <div class="main-container">
+  <div class="main-container about-me-div">
     <div class="container">
-      <div class="nav">
-        <p>HORROR LEGENDS</p>
-      </div>
       <div class="image">
-        <img style="width: 80px; height:80px" src="img/about-me/anna.jpg" alt="Chucky-Me">
-        <h2>About me</h2>
-        <p>Hi Ghouls, my name is Anna Molly. I'm a full time Horror nerd and I run my FB group "Macedonian Horror
-          Community" and the same page there as well. I've been on radio shows to talk
-          about my group and Horror movies and also organise movie nights with everyone who is a true lover of " The
-          Terror". Everyone is welcomed.
-          Horror movies are my passion. My first Horror movie is "Evil Dead 2" at the age of 6. Since then, I fell in
-          love with Horror movies and all the creepy stuff out there.
-          I can watch up to 10 movies in a row ( my record is 8) and sleep well after that ( 'Ha, Ha'*laughs like a
-          maniac).
-          My favorite genre is "Survival Horror" and my favorite Horror movie is "The Descent" from Neil Marshall.
-          But as you can see I have a quite little obsession with Freddy Krueger. That obvious ha. Fell in love with his
-          funny character from early age.
-          So, I hope you like my page and maybe someday we're gonna watch a Horror movie on a cold night, near Pet
-          Cemeteries Michael Myers and Jason.
-        </p>
+        <img src="img/about-me/anna.jpg" alt="Chucky-Me">
+        <div>
+            <h2>About me</h2>
+            <p>Hi Ghouls, my name is Anna Molly. I'm a full time Horror nerd and I run my FB group "Macedonian Horror
+              Community" and the same page there as well. I've been on radio shows to talk
+              about my group and Horror movies and also organise movie nights with everyone who is a true lover of " The
+              Terror". Everyone is welcomed.
+              Horror movies are my passion. My first Horror movie is "Evil Dead 2" at the age of 6. Since then, I fell in
+              love with Horror movies and all the creepy stuff out there.
+              I can watch up to 10 movies in a row ( my record is 8) and sleep well after that ( 'Ha, Ha'*laughs like a
+              maniac).
+              My favorite genre is "Survival Horror" and my favorite Horror movie is "The Descent" from Neil Marshall.
+              But as you can see I have a quite little obsession with Freddy Krueger. That obvious ha. Fell in love with his
+              funny character from early age.
+              So, I hope you like my page and maybe someday we're gonna watch a Horror movie on a cold night, near Pet
+              Cemeteries Michael Myers and Jason.
+            </p>
+        </div>
+        
       </div>
       <div class="sub">
         <div class="subheader">
@@ -109,44 +110,50 @@
         <div class="subimg">
           <div class="img1">
             <div class="images">
-              <img style="width: 80px; height:80px" src="img/about-me/Freddy Krueger.JPG" alt="Freddy Krueger">
+              <img src="img/about-me/Freddy Krueger.JPG" alt="Freddy Krueger">
+              <div class="supcontent">
+                <div>
+                    FREDDY KRUEGER
+                </div>
+                  
+                  <span>Frederick Charles "Freddy" Krueger (/ˈkruːɡər/) is a character from the A Nightmare on Elm Street
+                    film series.
+                    He first appeared in Wes Craven's A Nightmare on Elm Street (1984) as a burnt serial killer who uses a
+                    gloved hand with razors to kill his victims in their dreams, causing their deaths in the real world as
+                    well.
+                    In the dream world, he is a powerful force and almost completely invulnerable. However, whenever Freddy
+                    is pulled into the real world, he has normal human vulnerabilities.
+                    The character was created by Wes Craven and was consistently portrayed by Robert Englund in the original
+                    film series as well as in the television spin-off.
+                  </span>
             </div>
-            <div class="supcontent">
-              <p>FREDDY</p>
-              <p>KRUEGER</p>
-              <span>Frederick Charles "Freddy" Krueger (/ˈkruːɡər/) is a character from the A Nightmare on Elm Street
-                film series.
-                He first appeared in Wes Craven's A Nightmare on Elm Street (1984) as a burnt serial killer who uses a
-                gloved hand with razors to kill his victims in their dreams, causing their deaths in the real world as
-                well.
-                In the dream world, he is a powerful force and almost completely invulnerable. However, whenever Freddy
-                is pulled into the real world, he has normal human vulnerabilities.
-                The character was created by Wes Craven and was consistently portrayed by Robert Englund in the original
-                film series as well as in the television spin-off.
-              </span>
+           
             </div>
           </div>
           <div class="img1">
             <div class="images">
-              <img style="width: 80px; height:80px" src="img/about-me/jason voorhees.jpg" alt="Jason Voorhees">
+              <img src="img/about-me/jason voorhees.jpg" alt="Jason Voorhees">
+              <div class="supcontent">
+                <div>
+                    JASON VOORHEES
+                </div>
+                  <span>Jason Voorhees (/ˈvɔːrhiːz/) is the main character from the Friday the 13th series. He first appeared in Friday the 13th (1980) as the young son of camp cook-turned-killer Mrs. Voorhees, in which he was portrayed by Ari Lehman. 
+                    Created by Victor Miller, with contributions by Ron Kurz, Sean S. Cunningham and Tom Savini, Jason was not originally intended to carry the series as the main antagonist.</span>
+                </div>
             </div>
-            <div class="supcontent">
-              <p>JASON</p>
-              <p>VOORHEES</p>
-              <span>Jason Voorhees (/ˈvɔːrhiːz/) is the main character from the Friday the 13th series. He first appeared in Friday the 13th (1980) as the young son of camp cook-turned-killer Mrs. Voorhees, in which he was portrayed by Ari Lehman. 
-                Created by Victor Miller, with contributions by Ron Kurz, Sean S. Cunningham and Tom Savini, Jason was not originally intended to carry the series as the main antagonist.</span>
-            </div>
+            
           </div>
           <div class="img2">
             <div class="images">
-              <img style="width: 80px; height:80px" src="img/about-me/michael myers.jpg" alt="Michael Myers">
-            </div>
-            <div class="supcontent">
-              <p>MICHAEL</p>
-              <p>MYERS</p>
-              <span>Michael Myers is a fictional character from the Halloween series of slasher films. He first appears in John Carpenter's Halloween (1978) as a young boy who murders his sister, Judith Myers, and then, fifteen years later, returns home to Haddonfield to murder more teenagers.
-                  Michael Myers is characterized as pure evil, both directly in the films, by the filmmakers who created and developed the character over nine films, as well as by random participants in a survey.[1][2] The mask Michael Myers wears is a Captain Kirk mask which was painted white.
-              </span>
+              <img src="img/about-me/michael myers.jpg" alt="Michael Myers">
+              <div class="supcontent">
+                <div>
+                    MICHAEL MYERS
+                </div>
+                  <span>Michael Myers is a fictional character from the Halloween series of slasher films. He first appears in John Carpenter's Halloween (1978) as a young boy who murders his sister, Judith Myers, and then, fifteen years later, returns home to Haddonfield to murder more teenagers.
+                      Michael Myers is characterized as pure evil, both directly in the films, by the filmmakers who created and developed the character over nine films, as well as by random participants in a survey.[1][2] The mask Michael Myers wears is a Captain Kirk mask which was painted white.
+                  </span>
+                </div>
             </div>
           </div>
 
@@ -176,7 +183,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script> -->
   <!-- <script src="blood-animation.js"></script> -->
-  <!-- <script src="header-animation.js"></script>
+  <!-- <script src="header-animation.js"></script> -->
   <!-- <script src="w3-sidebar.js"></script> -->
   <!-- <script src="search-bar.js"></script>
   <script src="main.js"></script>  -->

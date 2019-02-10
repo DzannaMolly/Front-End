@@ -140,7 +140,7 @@ function createMovieResultTemplate(individualMovie) {
 
 	var readMoreButton = document.createElement('a');
 	$(readMoreButton).addClass('btn btn-danger');
-	$(readMoreButton).attr('href', individualMovie.link);
+	$(readMoreButton).attr('href', individualMovie.link).attr("target", "_blank");
 	$(readMoreButton).html('Read More');
 
 	$(panelBody).append(image);

@@ -1,7 +1,7 @@
 function PageRenderer() {
     this.album = [];
     this.generateAlbum = function () {
-        for (var i = 0; i < 10; i++) {
+        for (var i = 0; i < 5; i++) {
             this.album.push(new Picture("Image " + i));
         }
     }
