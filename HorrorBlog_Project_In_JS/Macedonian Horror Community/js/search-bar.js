@@ -25,21 +25,33 @@ function myFunction() {
 	})
 	.then(function(apiReturn1) {
         movieApp.movies = apiReturn1.results.filter(function(movie){
+      
+            
             if (movie.genre_ids.includes(27)) {
+             
                 return movie;
             }
         });
-        console.log(movieApp.movies);
+     
         $("#searchResults").html("");
         for (i = 0; i < movieApp.movies.length; i++) {
+
             var container = $("<li>");
             var image = $("<img>");
             image.attr("src", movieApp.imageUrl + movieApp.movies[i].poster_path);
             image.appendTo(container);
-            var link = $("<a>").text(movieApp.movies[i].title);
+            var link = $("<a>").text(movieApp.movies[i].title).css("cursor", "pointer").addClass("thatResults").attr("id", movieApp.movies[i].id);
             link.appendTo(container);
             container.appendTo("#searchResults");
             $("#searchResults").css("visibility", "visible");
         }
 	}); 
+
+    $("#searchResults").on("click", ".thatResults", async (event) => {
+        console.log(event.target);
+        $(event.target).attr("href", "https://www.themoviedb.org/movie/" + event.target.id).attr("target", "_blank")
+        
+    })
+
+
 }
